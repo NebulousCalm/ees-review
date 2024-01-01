@@ -1,7 +1,6 @@
 'use client'
-import Image from 'next/image'
 import Link from 'next/link'
-import styles from './page.module.css'
+import Image from 'next/image'
 import Typewriter from "typewriter-effect";
 
 export default function Home() {
