@@ -84,7 +84,7 @@ body{background-color: #000;overflow-x:hidden;}
 }
 
 .footer{
-  height: 45vh;
+  height: 40vh;
   background-color: #1C1D22;
   width: 90vw;
   margin: 4vh 5vw;
@@ -230,4 +230,26 @@ body{background-color: #000;overflow-x:hidden;}
   font-size: 19px;
   font-weight: 300;
   text-indent: 50px;
+}
+
+/* header images */
+
+.geology{
+  background-image: url("https://images.unsplash.com/photo-1484352491158-830ef5692bb3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") !important;
+}
+
+/* mobile things */
+
+@media screen and (min-width: 300px){
+ #headline{
+   font-size: 40px !important;
+ }
+  .typewrite{
+    display: block;
+  }
+  #explanation{
+    width: 90vw !important;
+    font-size: 12px;
+  }
+  
 }

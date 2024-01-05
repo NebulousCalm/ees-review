@@ -12,9 +12,7 @@ export default function astronomy() {
                     <p className="author">By Zachary <span className="date">December 21, 2023</span></p>
                 </div>
 
-                <div className="header-image">
-                    <p className="header-img-text">Aldebaran S @ Unsplash</p>
-                </div>
+                <Link href="www.google.com" className="header-image"></Link>
             </div>
 
             <div className="article-container">
@@ -29,15 +27,15 @@ export default function astronomy() {
     <div className="footer-container">
         <div className="footer">
             <div className="links-container">
-                <Link href="http://localhost:3000/astronomy">Astronomy</Link>
-                <Link href="#">Geology</Link>
-                <Link href="#">Freshwater</Link>
-                <Link href="#">Dynamic Earth</Link>
-                <Link href="#">Freshwater</Link>
-                <Link href="#">Oceanography</Link>
-                <Link href="#">Climate Change</Link>
-                <Link href="#">Energy Resources</Link>
-                <Link href="#">Biodiversity</Link>
+                <Link href="https://ees-yearinreview.vercel.app/astronomy">Astronomy</Link>
+                <Link href="https://ees-yearinreview.vercel.app/geology">Geology</Link>
+                <Link href="https://ees-yearinreview.vercel.app/freshwater">Freshwater</Link>
+                <Link href="https://ees-yearinreview.vercel.app/dynamicearth">Dynamic Earth</Link>
+                <Link href="https://ees-yearinreview.vercel.app/freshwater">Freshwater</Link>
+                <Link href="https://ees-yearinreview.vercel.app/oceanography">Oceanography</Link>
+                <Link href="https://ees-yearinreview.vercel.app/climatechange">Climate Change</Link>
+                <Link href="https://ees-yearinreview.vercel.app/energyresources">Energy Resources</Link>
+                <Link href="https://ees-yearinreview.vercel.app/biodiversity">Biodiversity</Link>
             </div>
         </div>
     </div>
