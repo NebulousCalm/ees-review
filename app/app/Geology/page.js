@@ -19,7 +19,7 @@ export default function astronomy() {
 
             <div className="article-container">
               <p className="paragraph">The main part of geology (as pictured above) is rocks. Consisting of Igneous (formed via cooled magma or lava). Sedimentary, forming from compacted and cemented sediment. And lastly, metamorphic, A sedimentary or igneous rock that has been altered under immense heat or pressure. These make up the rock cycle</p>
-              <p className="paragraph">Rocks. That's essentially Geology. It&apos;s all about how rocks form and how they change. The Rock Cycle however is probably the key piece to understanding however. It&apos;s a visually cluttered diagram but is quite simple once broken down. Geology is </p>
+              <p className="paragraph">Rocks. That&apos;s essentially Geology. It&apos;s all about how rocks form and how they change. The Rock Cycle however is probably the key piece to understanding however. It&apos;s a visually cluttered diagram but is quite simple once broken down. </p>
             </div>
         </div>
 
