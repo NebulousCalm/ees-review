@@ -7,20 +7,18 @@ export default function astronomy() {
             <div className="header-container">
 
                 <div className="title-container">
-                    <h1 className="title">Geology</h1>
+                    <h1 className="title">Freshwater</h1>
                     <p className="title-desc"></p>
                     <p className="author">By Zachary <span className="date">December 21, 2023</span></p>
                 </div>
 
-                <div className="header-image geology">
-                    <p className="header-img-text">Aldebaran S @ Unsplash</p>
-                </div>
+                <Link href="www.google.com"><div className="header-image freshwater"></div></Link>
             </div>
 
             <div className="article-container">
-              <p className="paragraph">Here in this image we can see a sedimentary rock that is being weathered and eroded from the inside. Presumably from either wind, water or both! This rock is being turned into sediment, where it will be deposited and then later turn back into a sedimentary rock.</p>
-              <p className="paragraph">Rocks. That&apos;s essentially Geology. It&apos;s all about how rocks form and how they change. The Rock Cycle however is probably the key piece to understanding however. It&apos;s a visually cluttered diagram but is quite simple once broken down. When a rock is heated to a certain point it can melt. Forming magma/lava. This can later form into igneous rock. When a rock is weathered and eroded it becomes sediment, upon which being compacted and cemented forms Sedimentary rock. Lastly, metamorphic rock takes an already formed sedimentary or igneous rock and applys heat or pressure to it to alter it in some way.</p>
-              <p className="paragraph">Geology is seemingly a boring subject. I mean, it&apos;s literally rocks. However it can be useful to be able to be able to understand where rocks are formed, and how. As someone who wants to dabble into the world of scientific data collection with my business, this could prove to be valuable.</p>
+                <p className="paragraph">Groundwater (as depicted above) is heavily important</p>
+                <p className="paragraph"></p>
+                <p className="paragraph"></p>
             </div>
         </div>
 

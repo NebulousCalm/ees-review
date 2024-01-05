@@ -238,6 +238,9 @@ body{background-color: #000;overflow-x:hidden;}
   background-image: url("https://images.unsplash.com/photo-1484352491158-830ef5692bb3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") !important;
 }
 
+.freshwater{
+  background-image: url("https://ecology.wa.gov/ecology/media/Images/RESEARCH-DATA/Monitoring-assessment/GroundwaterModel.jpg?ext=.jpg") !important;
+}
 /* mobile things */
 
 @media screen and (min-width: 300px){
