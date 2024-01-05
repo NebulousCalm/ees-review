@@ -12,9 +12,9 @@ export default function astronomy() {
                     <p className="author">By Zachary <span className="date">December 21, 2023</span></p>
                 </div>
 
-                <div className="header-image geology">
-                    <p className="header-img-text">Aldebaran S @ Unsplash</p>
-                </div>
+                <Link href="https://unsplash.com/user/aldebarans">
+                  <div className="header-image geology"></div>
+                </Link>
             </div>
 
             <div className="article-container">
@@ -41,6 +41,6 @@ export default function astronomy() {
             </div>
         </div>
     </div>
-        </main>
+      </main>
     )
 }
