@@ -12,7 +12,7 @@ export default function astronomy() {
                     <p className="author">By Zachary <span className="date">December 21, 2023</span></p>
                 </div>
 
-                <Link href="www.google.com" className="header-image"></Link>
+                <Link href="www.google.com"><div className="header-image"></div></Link>
             </div>
 
             <div className="article-container">
