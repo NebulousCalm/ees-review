@@ -21,7 +21,7 @@ export default function Home() {
             />
         </span></h3>
 
-        <p id="explanation">This website, created as a High school Earth and Environmental final project to summarize all content during the semester.</p>
+        <p id="explanation">This website, created as a High school Earth and Environmental final project to summarize all content during the semester. January, 2023</p>
         <Link href="https://ees-yearinreview.vercel.app/astronomy" className="getstarted-btn">Begin <i className="fa-solid fa-arrow-right right-arrow"></i></Link>
       </div>
   )
