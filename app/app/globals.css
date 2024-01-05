@@ -225,7 +225,7 @@ body{background-color: #000;overflow-x:hidden;}
 }
 
 .paragraph{
-  margin: 20px 10% 30px 40%;
+  margin: 40px 5%;
   color: var(--off-gray);
   font-size: 19px;
   font-weight: 300;
