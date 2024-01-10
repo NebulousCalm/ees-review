@@ -5,7 +5,6 @@ import Typewriter from "typewriter-effect";
 
 export default function Home() {
   return (
-
       <div className="main-container">
         <h3 id="tagline">A year in review</h3>
 
