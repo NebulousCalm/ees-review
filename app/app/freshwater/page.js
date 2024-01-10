@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function astronomy() {
+export default function freshwater() {
   return (
     <main className="bigboy-container">
       <div className="container">
