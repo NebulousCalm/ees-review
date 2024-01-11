@@ -1,89 +1,58 @@
-import Link from "next/link";
+import Image from 'next/image'
+import Link from 'next/link'
 
-export default function freshwater() {
-  return (
-    <main className="bigboy-container">
-      <div className="container">
-        <div className="header-container">
-          <div className="title-container">
-            <h1 className="title">Freshwater</h1>
-            <p className="title-desc"></p>
-            <p className="author">
-              By Zachary <span className="date">December 21, 2023</span>
-            </p>
-          </div>
-
-          <Link href="https://ecology.wa.gov/water-shorelines/water-quality/groundwater/groundwater-resources/groundwater-diagram">
-            <div className="header-image freshwater"></div>
-          </Link>
-        </div>
-
-        <div className="article-container">
-          <p className="paragraph">
-            Freshwater (as depicted above) is heavily important to well, staying
-            alive. It can originate from multiple sources. A river, lake,
-            glaciers and groundwater to name a few. Water seeps into the ground,
-            contributing to the water table. Which is the boundary between
-            water-saturated ground and the unsaturated ground. We use wells (as
-            seen far right) to go past the water table and take up water.
-            However a less/non-permeable set of soil can sometimes interrupt the
-            flow of water. This is called an aquitard (depicted on the left
-            side).
-          </p>
-          <p className="paragraph">
-            Freshwater can also be infeced. Here in North Carolina it&apos;s a
-            prevalent problem. Hog waste being the most significant contributor
-            causes Eutrophication. Eutrophication being the main cause of river
-            ecosystems being in danger today. First, fertilizer runoff enters
-            the water source. Algae within, grows rapidly. Causing a algae film
-            to form. Preventing sunlight to enter and for the plant life
-            underneath to create oxygen via photosynthesis. Because of the lack
-            of oxygen in the water all life ceases to exist.
-          </p>
-          <p className="paragraph">
-            Out of most units in Earth and Environmental Science, this is
-            probably the most important to me. As I am currently designing a
-            method of obtaining river/stream data (Dissolved oxygen, water
-            levels, light levels, etc.) So understanding how water moves and is
-            used throughout our lives is vital to me creating this product and
-            it will be used to great use.
-          </p>
-        </div>
-      </div>
-
-      <div className="footer-container">
-        <div className="footer">
-          <div className="links-container">
-            <Link href="https://ees-yearinreview.vercel.app/astronomy">
-              Astronomy
-            </Link>
-            <Link href="https://ees-yearinreview.vercel.app/geology">
-              Geology
-            </Link>
-            <Link href="https://ees-yearinreview.vercel.app/freshwater">
-              Freshwater
-            </Link>
-            <Link href="https://ees-yearinreview.vercel.app/dynamicearth">
-              Dynamic Earth
-            </Link>
-            <Link href="https://ees-yearinreview.vercel.app/freshwater">
-              Freshwater
-            </Link>
-            <Link href="https://ees-yearinreview.vercel.app/oceanography">
-              Oceanography
-            </Link>
-            <Link href="https://ees-yearinreview.vercel.app/climatechange">
-              Climate Change
-            </Link>
-            <Link href="https://ees-yearinreview.vercel.app/energyresources">
-              Energy Resources
-            </Link>
-            <Link href="https://ees-yearinreview.vercel.app/biodiversity">
-              Biodiversity
-            </Link>
-          </div>
-        </div>
-      </div>
-    </main>
-  );
+import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faMeteor, faLayerGroup, faWater, faCloudShowersWater, faVolcano, faIcicles, faRecycle, faPlug, faTree} from '@fortawesome/free-solid-svg-icons'
+export default function Geology() {
+    return (
+        <main>
+            <div className="sidenav">
+                <Link href="/astronomy" ><FontAwesomeIcon className="icons" icon={faMeteor} /></Link>
+                <Link href="/geology" ><FontAwesomeIcon className="icons" icon={faLayerGroup} /></Link>
+                <Link href="/freshwater"><FontAwesomeIcon className="icons" icon={faIcicles} /></Link>
+                <Link href="/oceanography"><FontAwesomeIcon className="icons" icon={faWater} /></Link>
+                <Link href="/meteorology"><FontAwesomeIcon className="icons" icon={faCloudShowersWater} /></Link>
+                <Link href="/dynamicearth" ><FontAwesomeIcon className="icons" icon={faVolcano} /></Link>
+                <Link href="/climate"><FontAwesomeIcon className="icons" icon={faRecycle}/></Link>
+                <Link href="/energy"><FontAwesomeIcon className="icons" icon={faPlug}/></Link>
+                <Link href="/biodiversity"><FontAwesomeIcon icon={faTree} className="icons" /></Link>
+            </div>
+            <div className="image-container freshwater">
+                <p className="src-text"></p>
+            </div>
+            <div className="whyunderstand">
+                <h1 className="title">Facts from the unit</h1>
+                <p className="text">Freshwater can also be infected. Here in North Carolina it&apos;s a
+                    prevalent problem. Hog waste being the most significant contributor
+                    causes Eutrophication. Eutrophication being the main cause of river
+                    ecosystems being in danger today. First, fertilizer runoff enters
+                    the water source. Algae within, grows rapidly. Causing a algae film
+                    to form. Preventing sunlight to enter and for the plant life
+                    underneath to create oxygen via photosynthesis. Because of the lack
+                    of oxygen in the water all life ceases to exist.</p>
+            </div>
+            <br />
+            <div className="img-explain">
+                <p className="text">Freshwater (as depicted above) is heavily important to well, staying
+                    alive. It can originate from multiple sources. A river, lake,
+                    glaciers and groundwater to name a few. Water seeps into the ground,
+                    contributing to the water table. Which is the boundary between
+                    water-saturated ground and the unsaturated ground. We use wells (as
+                    seen far right) to go past the water table and take up water.
+                    However a less/non-permeable set of soil can sometimes interrupt the
+                    flow of water. This is called an aquitard (depicted on the left
+                    side).</p>
+            </div>
+            <div className="whythismatters">
+                <h1 className="title">How it affects me</h1>
+                <p className="text">Out of most units in Earth and Environmental Science, this is
+                    probably the most important to me. As I am currently designing a
+                    method of obtaining river/stream data (Dissolved oxygen, water
+                    levels, light levels, etc.) So understanding how water moves and is
+                    used throughout our lives is vital to me creating this product and
+                    it will be used to great use.</p>
+            </div>
+        </main>
+    )
 }

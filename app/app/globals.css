@@ -3,11 +3,12 @@
 *{
   margin: 0;
   padding: 0;
-  font-family: 'DM sans', sans-serif;
 }
 
 :root{
-  --bg-gray: #111821;
+  --body-bg: #121314;
+  --sidenav-bg: #1C1D22;
+  --boxes-bg: #2C2E37;
   --main-red: #8E3943;
   --main-green: #73C6B6;
   --tan: #E4D6A7;
@@ -15,16 +16,15 @@
   --light-gray: #D5DBDB;
 }
 
-body{background-color: #000;overflow-x:hidden;}
+body{
+  background-color: var(--body-bg);
+}
 
+/* homepage styling */
 .main-container{
   text-align: center;
   margin: 30vh auto 20vh auto;
-  background-color: #000;
-}
-
-.bigboy-container{
-  background-color: #121314;
+  overflow: hidden;
 }
 
 #tagline{
@@ -73,71 +73,44 @@ body{background-color: #000;overflow-x:hidden;}
   color: #92A6C4 !important;
   display: inline-block;
 }
+/* end homepage styling */
 
-/* footer stuff */
-.footer-container{
-  background-color: #121314;
-  width: 100vw;
-  height: 55vh;
-  bottom: 0;
-  position: relative;
-}
+/* sidenav styling */
 
-.footer{
-  height: 40vh;
-  background-color: #1C1D22;
-  width: 90vw;
-  margin: 4vh 5vw;
-  z-index: 10000;
-  position: absolute;
-  border-radius: 0.4rem;
-}
-
-.links-container{
-  width: 90%;
-  top: 50%;
-  position: absolute;
-  right: 0;
-  transform: translateY(-50%);
-  display: grid;
-  align-items: center;
-  grid-template-columns: auto auto auto;
-}
-
-.links-container a{
-  text-decoration: none;
-  margin: 20px 30px;
-  color: var(--light-gray);
-  font-size: 32px;
-  font-weight: 300;
-  transition: 0.3s;
-}
-
-.links-container a:hover{
-  filter: brightness(80%);
-}
-
-/* article content stuff */
-
-.container{
-  background-color: #1C1D22;
-  width: 90vw;
-  margin: 5vh 5vw;
+.sidenav{
+  width: 50px;
   display: inline-block;
-  border-radius: 0.4rem;
-  height: 100%;
+  position: absolute;
+  top: 0;
+  background-color: #1C1D22;
+  height: 100vh;
 }
 
-.header-container{
-  width: 100%;
+.sidenav a .icons{
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  display: block;
+  padding: 20px 10px;
+  border-bottom: 1px solid #fff;
 }
 
-.header-image {
-  margin: 40px 5%;
-  height: 70vh;
+.sidenav a{
+  text-decoration-line: none;
+}
+
+/* ---- END SIDENAV ---- */
+
+/* ---- IMAGE ---- */
+
+.image-container {
+  margin-left: 10vw;
+  margin-top: 50px;
+  height: 40vh;
   position: relative;
   color: #fff;
-  width: 81vw;
+  display: inline-block;
+  width: 30vw;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
@@ -147,7 +120,7 @@ body{background-color: #000;overflow-x:hidden;}
   overflow: hidden; /* Added to contain the pseudo-element */
 }
 
-.header-image::before {
+.image-container::before {
   content: '';
   position: absolute;
   top: 0;
@@ -161,27 +134,27 @@ body{background-color: #000;overflow-x:hidden;}
   z-index: 1;
 }
 
-.header-image:hover::before { /* The magic line */
+.image-container:hover::before { /* The magic line */
   opacity: 1;
 }
 
-.header-image:hover {
+.image-container:hover {
   cursor: pointer;
   transition: 0.5s;
 }
 
-.header-img-text {
+.src-text {
   font-size: 25px;
   width: 90%;
   position: absolute;
   bottom: 8px;
   left: 18px;
   opacity: 0;
-  z-index: 2; /* Ensure text is above the overlay */
+  z-index: 200; /* Ensure text is above the overlay */
 }
 
-.header-image:hover .header-img-text {
-  -webkit-animation: slide-up 0.5s cubic-bezier(0.4, 0, 0.2, 1) 0s forwards;
+.img-container:hover .src-text {
+  -webkit-animation: slide-up 0.5s cubic-bezier(0.4, 0, 0.2, 1) 0.1s forwards;
 }
 
 @-webkit-keyframes slide-up {
@@ -189,50 +162,46 @@ body{background-color: #000;overflow-x:hidden;}
   100% { transform: translateY(0); opacity: 1 }
 }
 
+/* END IMAGE */
 
-.title-container{
-  top: 50px;
-  right: 40px;
-  margin: 5% 0 0 5%;
-}
+/* ---- Text Container ----*/
 
-.title{
+.img-explain{
+  background-color: var(--boxes-bg);
+  margin-left: 10vw;
+  margin-top: 50px;
+  display: inline-block;
+  width: 30vw;
+  border-radius: 0.4rem;
+  position: relative;
   color: #fff;
-  font-family: 'Inter', sans-serif;
-  font-size: 44px;
-  font-weight: 200;
-  margin-bottom: 20px;
 }
 
-.title-desc{
-  font-family: 'Inter', sans-serif;
-  width: 450px;
+.text{
+  font-family: 'DM Sans', sans-serif;
   color: var(--off-gray);
-  font-weight: 200;
-  font-size: 17px;
-}
-
-.author{
-  margin-top: 20px;
-  font-size: 12px;
-  font-family: 'Inter', sans-serif;
-  font-weight: 600;
-  color: var(--off-gray);
-}
-
-.date{
-  color: #5D6D7E;
-}
-
-.paragraph{
-  margin: 40px 5%;
-  color: var(--off-gray);
-  font-size: 19px;
   font-weight: 300;
-  text-indent: 50px;
+  font-size: 13px;
+  padding: 10px;
 }
 
-/* header images */
+.whyunderstand, .whythismatters{
+  width: 40vw;
+  margin-left: 10vw;
+  margin-top: 50px;
+  background-color: var(--boxes-bg);
+  border-radius: 0.4rem;
+  position: absolute;
+  display: inline-block;
+}
+
+.whyunderstand .title, .whythismatters .title{
+  font-size: 32px;
+  color: #fff;
+  padding: 10px;
+}
+
+/* every single image, manually coded in because I hate myself */
 
 .geology{
   background-image: url("https://images.unsplash.com/photo-1484352491158-830ef5692bb3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") !important;
@@ -241,12 +210,13 @@ body{background-color: #000;overflow-x:hidden;}
 .freshwater{
   background-image: url("https://ecology.wa.gov/ecology/media/Images/RESEARCH-DATA/Monitoring-assessment/GroundwaterModel.jpg?ext=.jpg") !important;
 }
-/* mobile things */
+
+/* --- mobile things --- */
 
 @media screen and (max-width: 300px){
- #headline{
-   font-size: 40px !important;
- }
+  #headline{
+    font-size: 40px !important;
+  }
   .typewrite{
     display: block;
   }
@@ -254,5 +224,5 @@ body{background-color: #000;overflow-x:hidden;}
     width: 90vw !important;
     font-size: 12px;
   }
-  
+
 }
