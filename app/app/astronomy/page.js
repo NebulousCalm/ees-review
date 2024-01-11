@@ -23,7 +23,7 @@ export default function Astronomy() {
             </div>
             <div className="whyunderstand">
                 <h1 className="title">Why facts from the unit</h1>
-                <p className="text">The sun is probably the single most crucial part of our solar system. Providing the gravity needed to both form the planets, it also keeps them within a proper orbit. Not to mention it both warms our planet and provides energy (via photosynthesis) that without it, life as we know it now would not exist. The sun is the figurative and literal center point in our galaxy. It powers and holds together life as we know it to be today. It's funny to think a ball of hydrogen is the reason we&apos;re standing here today!</p>
+                <p className="text">The sun is probably the single most crucial part of our solar system. Providing the gravity needed to both form the planets, it also keeps them within a proper orbit. Not to mention it both warms our planet and provides energy (via photosynthesis) that without it, life as we know it now would not exist. The sun is the figurative and literal center point in our galaxy. It powers and holds together life as we know it to be today. It&apos;s funny to think a ball of hydrogen is the reason we&apos;re standing here today!</p>
             </div>
             <br />
             <div className="img-explain">
