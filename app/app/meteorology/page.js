@@ -4,7 +4,7 @@ import Link from 'next/link'
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMeteor, faLayerGroup, faWater, faCloudShowersWater, faVolcano, faIcicles, faRecycle, faPlug, faTree} from '@fortawesome/free-solid-svg-icons'
-export default function dynamearth() {
+export default function meteorology() {
     return (
         <main>
             <div className="sidenav">
