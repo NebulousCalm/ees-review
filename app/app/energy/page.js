@@ -25,7 +25,7 @@ export default function Geology() {
             </div>
             <br />
             <div className="img-explain">
-                <p className="text">Here in the image above is a Nuclear Power plant. Which provides energy in a non-renewable format, as the Uranium it must enrich as a part of the process is limited. Not to mention expensive. However unlike other methods, it does not produce a greenhouse gas. Making it eco friendly save for the potential of </p>
+                <p className="text">Here in the image above is a Nuclear Power plant. Which provides energy in a non-renewable format, as the Uranium it must enrich as a part of the process is limited. Not to mention expensive. However unlike other methods, it does not produce a greenhouse gas. Making it eco friendly save for the potential of a catastrophic failure. </p>
             </div>
             <div className="whythismatters">
                 <h1 className="title">How it affects me</h1>
