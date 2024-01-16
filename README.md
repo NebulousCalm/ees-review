@@ -1,6 +1,6 @@
 # EES Year in Review
 
-> This was a project designed as a final for Highschool Earth and Environmental Science (honors). This project was designed with Jetbrains IDE Webstorm. Written in NextJS, I struggled quite a bit. I'm a python backend developer I was a bit out of my element here but I think it turned out alright. I utilized a few libraries (typewritter-effect && fontawesome)
+> This was a project designed as a final for Highschool Earth and Environmental Science. This project was designed with Jetbrains IDE Webstorm. Written in NextJS, I struggled quite a bit. I'm a python backend developer mostly I was a bit out of my element here but I think it turned out alright. I also got sick during a lot of the work time so it wasn't the project I had initially envisioned. I utilized a few libraries (typewritter-effect && fontawesome)
 
 PACKAGE MANAGER REQUIREMENTS
 
