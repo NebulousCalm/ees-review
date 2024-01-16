@@ -14,3 +14,5 @@ npm i --save @fortawesome/react-fontawesome@latest
 ```
 If you want to run locally, use the `./app` directory and use `npm run dev`. Go to the localhost port it provides on your machine
 
+
+Hosted version here: <a href="https://ees-review.vercel.app">ees-review.vercel.app</a>.
