@@ -29,7 +29,7 @@ export default function dynamearth() {
             </div>
             <div className="whythismatters">
                 <h1 className="title">How it affects me</h1>
-                <p className="text">Technology oriented people (such as myself) often reside within Silicon Valley</p>
+                <p className="text">Technology oriented people (such as myself) often reside within Silicon Valley. Near Sillicon Valley, the San Andreas fault is located. Consisting of two tectonic plates, the area is subject to Earthquakes due to the transform boundrary formed by the two plates sliding past each other. I don&apos;t know if I will decide to live in San Francisco (seeing as I'm not that rich), wherever I live, the Environmental landscape caused by a dynamic Earth will most certainly play a factor. </p>
             </div>
         </main>
     )
