@@ -3,6 +3,9 @@ import Link from 'next/link'
 import Image from 'next/image'
 import Typewriter from "typewriter-effect";
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
+
 export default function Home() {
   return (
       <div className="main-container">
@@ -21,8 +24,9 @@ export default function Home() {
         </span></h3>
 
         <p id="explanation">This website, created as a High school Earth and Environmental final project to summarize all content during the semester. January, 2023</p>
-        <Link href="https://ees-yearinreview.vercel.app/astronomy" className="getstarted-btn">Begin <i className="fa-solid fa-arrow-right right-arrow"></i></Link>
-        <Link href="https://github.com/NebulousCalm/ees-review/tree/main" className="getstarted-btn">Github <i className="fa-solid fa-arrow-right right-arrow"></i></Link>
+        <Link href="https://ees-yearinreview.vercel.app/astronomy" className="getstarted-btn">Begin <FontAwesomeIcon icon={faArrowRight} className="icons" /></Link>
+        <br />
+        <Link href="https://github.com/NebulousCalm/ees-review/tree/main" className="getstarted-btn">Github <FontAwesomeIcon icon={faArrowRight} className="icons" /></Link>
       </div>
   )
 }
