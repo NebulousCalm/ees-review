@@ -18,18 +18,18 @@ export default function dynamearth() {
                 <Link href="/energy"><FontAwesomeIcon className="icons" icon={faPlug}/></Link>
                 <Link href="/biodiversity"><FontAwesomeIcon icon={faTree} className="icons" /></Link>
             </div>
-            <Link href="https://images.unsplash.com/photo-1454789476662-53eb23ba5907?q=80&w=1952&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" className="image-container climate"></Link>
+            <Link href="https://kingcounty.gov/en/legacy/services/environment/climate/our-changing-climate/-/media/services/environment/climate/introduction/sun-infographic.ashx?la=en&hash=60E925FED3E9C2FACCBF90F28902C013" className="image-container climate"></Link>
             <div className="whyunderstand">
                 <h1 className="title">Facts from the unit</h1>
-                <p className="text"></p>
+                <p className="text">Greenhouse gasses trap heat and infared light from the sun close to the suns surface. However there are some natural greenhouse gasses: such as water vapor or carbon dioxide from a volcanic eruption. However some are enhanced, which means that human activities have contributed to the significant amount. These include Carbon Dioxide, Methane, and Ozone.</p>
             </div>
             <br />
             <div className="img-explain">
-                <p className="text"></p>
+                <p className="text">Displayed above is the Greenhouse effect. When the suns infared light reaches our atmosphere, some is reflected away. Some is absorbed by the ground, and some is trapped close to the Earth because of Greenhouse gasses. Smothering the ground in toxic chemicals and intense heat.</p>
             </div>
             <div className="whythismatters">
                 <h1 className="title">How it affects me</h1>
-                <p className="text"></p>
+                <p className="text">I'm born into a generation that will begin to feel the lasting and devestating impacts of Global Warming and destroying ecosystems across the planet. We&apos;ve destroyed the planet and it is up to my generation to fix it. I believe we can but we currently don&apos;t appear to truly care. Which could be a fatal error for humanity.</p>
             </div>
         </main>
     )
