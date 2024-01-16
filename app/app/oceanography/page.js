@@ -21,7 +21,7 @@ export default function oceanography() {
             <Link href="https://images.unsplash.com/photo-1553570739-330b8db8a925?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" className="image-container ocean"></Link>
             <div className="whyunderstand">
                 <h1 className="title">Facts from the unit</h1>
-                <p className="text">The Earth is covered in 71% water, of which originally came from comets and metiorites containing the valued h20. Volcanoes also contributed to water, as their volcanic plumes contain water vapor. Once the Earth began to cool, this vapor condensed into water. Forming the oceans we know today. There is a difference between an ocean and a sea. A sea is smaller than an ocean, as well as it must be partially or completely landlocked.</p>
+                <p className="text">The Earth is covered in 71% water, of which originally came from comets and metiorites containing the valued h20. Volcanoes also contributed to water, as their volcanic plumes contain water vapor. Once the Earth began to cool, this vapor condensed into water. Forming the oceans we know today. There is also a difference between an ocean and a sea. A sea is smaller than an ocean, as well as it must be partially or completely landlocked.</p>
             </div>
             <br />
             <div className="img-explain">
@@ -29,7 +29,7 @@ export default function oceanography() {
             </div>
             <div className="whythismatters">
                 <h1 className="title">How it affects me</h1>
-                <p className="text">As I've previously mentioned, the Earth is covered in 71% oceans. Meaning, no matter what I will come in contact with them. Sooner or later, whether it be rising sea levels from the melting ice caps or by going to a coastline. The ocean is a destructive and beautiful place that I want to understand more about in greater detail, and hopefully with my data collection I can do just that. </p>
+                <p className="text">As I&apos;ve previously mentioned, the Earth is covered in 71% oceans. Meaning, no matter what I will come in contact with them. Sooner or later, whether it be rising sea levels from the melting ice caps or by going to a coastline. The ocean is a destructive and beautiful place that I want to understand more about in greater detail, and hopefully with my data collection I can do just that. </p>
             </div>
         </main>
     )
