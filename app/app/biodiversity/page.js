@@ -29,7 +29,7 @@ export default function dynamearth() {
             </div>
             <div className="whythismatters">
                 <h1 className="title">How it affects me</h1>
-                <p className="text">Biodiversity is critical to sustin life as we know it today. Species provide us with industrial products as well as food, which wouldn't exist without a large amount of variation. Not to mention to keep an ecosystem stable everything must be intact. Diversity ensures species survival to keep this ecological web intact. Albeit humans are disrupting it, but this is how it should be. Without biodiversity things would be a lot different, and for all we know we might not have existed nor evolved.</p>
+                <p className="text">Biodiversity is critical to sustin life as we know it today. Species provide us with industrial products as well as food, which wouldn&apos;t exist without a large amount of variation. Not to mention to keep an ecosystem stable everything must be intact. Diversity ensures species survival to keep this ecological web intact. Albeit humans are disrupting it, but this is how it should be. Without biodiversity things would be a lot different, and for all we know we might not have existed nor evolved.</p>
             </div>
         </main>
     )
