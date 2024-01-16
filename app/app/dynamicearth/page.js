@@ -18,7 +18,7 @@ export default function dynamearth() {
                 <Link href="/energy"><FontAwesomeIcon className="icons" icon={faPlug}/></Link>
                 <Link href="/biodiversity"><FontAwesomeIcon icon={faTree} className="icons" /></Link>
             </div>
-            <Link href="https://www.google.com" className="image-container dynamearth"></Link>
+            <Link href="https://unsplash.com/photos/man-on-mountain-cliff-cPV4Eqs895w" className="image-container dynamearth"></Link>
             <div className="whyunderstand">
                 <h1 className="title">Facts from the unit</h1>
                 <p className="text">The Earth consists of 5 layers. Starting from the top: Crust, upper mantle, lower mantle, outer core, and the inner core. Tectonic plates reside in the lithosphere (upper mantle). These plates are responsible for the formation of many things: Including valleys, Mountians, Earthquakes, and even our oceans. These plates are in constant motion because of convection currents in the asthenosphere!</p>

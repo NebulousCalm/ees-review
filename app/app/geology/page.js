@@ -18,7 +18,7 @@ export default function Geology() {
                 <Link href="/energy"><FontAwesomeIcon className="icons" icon={faPlug}/></Link>
                 <Link href="/biodiversity"><FontAwesomeIcon icon={faTree} className="icons" /></Link>
             </div>
-          <Link href="https://www.google.com" className="image-container geology"></Link>
+          <Link href="https://images.unsplash.com/photo-1484352491158-830ef5692bb3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" className="image-container geology"></Link>
             <div className="whyunderstand">
                 <h1 className="title">Facts from the unit</h1>
                 <p className="text">Rocks. That&apos;s essentially Geology. It&apos;s all about how rocks form and how they change. The Rock Cycle however is probably the key piece to understanding however. It&apos;s a visually cluttered diagram but is quite simple once broken down. When a rock is heated to a certain point it can melt. Forming magma/lava. This can later form into igneous rock. When a rock is weathered and eroded it becomes sediment, upon which being compacted and cemented forms Sedimentary rock. Lastly, metamorphic rock takes an already formed sedimentary or igneous rock and applys heat or pressure to it to alter it in some way.</p>
