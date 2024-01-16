@@ -18,9 +18,7 @@ export default function Geology() {
                 <Link href="/energy"><FontAwesomeIcon className="icons" icon={faPlug}/></Link>
                 <Link href="/biodiversity"><FontAwesomeIcon icon={faTree} className="icons" /></Link>
             </div>
-            <div className="image-container freshwater">
-                <p className="src-text"></p>
-            </div>
+          <Link href="https://www.google.com" className="image-container freshwater"></Link>
             <div className="whyunderstand">
                 <h1 className="title">Facts from the unit</h1>
                 <p className="text">Freshwater can also be infected. Here in North Carolina it&apos;s a

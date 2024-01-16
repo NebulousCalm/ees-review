@@ -18,9 +18,7 @@ export default function Geology() {
                 <Link href="/energy"><FontAwesomeIcon className="icons" icon={faPlug}/></Link>
                 <Link href="/biodiversity"><FontAwesomeIcon icon={faTree} className="icons" /></Link>
             </div>
-            <div className="image-container geology">
-                <p className="src-text"></p>
-            </div>
+          <Link href="https://www.google.com" className="image-container energy"></Link>
             <div className="whyunderstand">
                 <h1 className="title">Facts from the unit</h1>
                 <p className="text">There are multiple ways to achieve electricity, some are renewable (sustainable), while others are not. They can also be environmentally friendly or in the opposite sense: dangerous to the environment (eg. Chernobyl in 1986). These energy sources include wind, solar, nuclear, geothermal, hydroelectric, energy via a dam, biomass, and burning fossil fuels.</p>

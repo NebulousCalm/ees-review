@@ -172,6 +172,7 @@ body{
   margin-top: 50px;
   display: inline-block;
   width: 30vw;
+  height: 40vh;
   border-radius: 0.4rem;
   position: relative;
   color: #fff;
@@ -193,6 +194,7 @@ body{
   border-radius: 0.4rem;
   position: absolute;
   display: inline-block;
+  height: 40vh;
 }
 
 .whyunderstand .title, .whythismatters .title{
@@ -209,6 +211,14 @@ body{
 
 .freshwater{
   background-image: url("https://ecology.wa.gov/ecology/media/Images/RESEARCH-DATA/Monitoring-assessment/GroundwaterModel.jpg?ext=.jpg") !important;
+}
+
+.dynamearth{
+  background-image: url("https://images.unsplash.com/photo-1506106487742-2baf007edcfb?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") !important;
+}
+
+.energy{
+  background-image: url('https://images.unsplash.com/photo-1610720707798-6fe21dc165ba?q=80&w=2030&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') !important;
 }
 
 /* --- mobile things --- */
