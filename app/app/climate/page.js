@@ -29,7 +29,7 @@ export default function dynamearth() {
             </div>
             <div className="whythismatters">
                 <h1 className="title">How it affects me</h1>
-                <p className="text">I'm born into a generation that will begin to feel the lasting and devestating impacts of Global Warming and destroying ecosystems across the planet. We&apos;ve destroyed the planet and it is up to my generation to fix it. I believe we can but we currently don&apos;t appear to truly care. Which could be a fatal error for humanity.</p>
+                <p className="text">I&apos;m born into a generation that will begin to feel the lasting and devestating impacts of Global Warming and destroying ecosystems across the planet. We&apos;ve destroyed the planet and it is up to my generation to fix it. I believe we can but we currently don&apos;t appear to truly care. Which could be a fatal error for humanity.</p>
             </div>
         </main>
     )
