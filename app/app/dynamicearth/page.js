@@ -25,11 +25,11 @@ export default function dynamearth() {
             </div>
             <br />
             <div className="img-explain">
-                <p className="text">In the image above we can see the Half Dome, in Yosemite Nat. Park in the US</p>
+                <p className="text">In the image above we can see the Half Dome, in Yosemite Nat. Park in the US. Standing at over 8.8k feet above sea level, the towering half-dome is made of igneous rock. Via a process known as uplifting, the cooled magma made its way above the surface. Through weathering and erosion (highlighted in the geography section) half of the dome was defaced, hence the name Half Dome. It was not successfully climbed until 1875.</p>
             </div>
             <div className="whythismatters">
                 <h1 className="title">How it affects me</h1>
-                <p className="text">lorem ipsum</p>
+                <p className="text">Technology oriented people (such as myself) often reside within Silicon Valley</p>
             </div>
         </main>
     )
