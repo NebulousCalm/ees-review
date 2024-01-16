@@ -66,6 +66,7 @@ body{
   background-color: var(--main-green);
   font-weight: 500;
   display: inline-block;
+  margin-bottom: 10px;
 }
 
 .getstarted-btn:hover{
@@ -118,7 +119,7 @@ body{
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
-  border: 1px solid #000;
+  border: 1px solid #333333;
   border-radius: 20px;
   background-image: url("https://spaceplace.nasa.gov/gallery-sun/en/solar-flare.en.jpg");
   overflow: hidden; /* Added to contain the pseudo-element */
@@ -177,6 +178,7 @@ body{
   display: inline-block;
   width: 30vw;
   height: 40vh;
+  border: 1px solid #333333;
   border-radius: 0.4rem;
   position: relative;
   color: #fff;
@@ -199,6 +201,7 @@ body{
   position: absolute;
   display: inline-block;
   height: 40vh;
+  border: 1px solid #333333;
 }
 
 .whyunderstand .title, .whythismatters .title{
@@ -254,9 +257,4 @@ body{
     width: 90vw !important;
     font-size: 12px;
   }
-
-}
-
-.geo{
-  background-color: #9E895E !important;
 }
