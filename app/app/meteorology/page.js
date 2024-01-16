@@ -29,7 +29,7 @@ export default function meteorology() {
             </div>
             <div className="whythismatters">
                 <h1 className="title">How it affects me</h1>
-                <p className="text">Suprisingly tracking the effects from weather is suprisingly easy to do and with limited supplies. I've already built sensors for detecting temperature changes (thermometer), pressure changes (barometer), as well as a humidity sensor. All of these combined (along with publically available data) allow me to (try) to interpret weather and to gain a better understanding of what&apos;s going on and what is to come (looking it up is boring). </p>
+                <p className="text">Suprisingly tracking the effects from weather is suprisingly easy to do and with limited supplies. I&apos;ve already built sensors for detecting temperature changes (thermometer), pressure changes (barometer), as well as a humidity sensor. All of these combined (along with publically available data) allow me to (try) to interpret weather and to gain a better understanding of what&apos;s going on and what is to come (looking it up is boring). </p>
             </div>
         </main>
     )
