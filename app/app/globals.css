@@ -16,6 +16,10 @@
   --light-gray: #D5DBDB;
 }
 
+.git{
+  background-color: var(--main-red) !important;
+}
+
 body{
   background-color: var(--body-bg);
 }
@@ -251,4 +255,8 @@ body{
     font-size: 12px;
   }
 
+}
+
+.geo{
+  background-color: #9E895E !important;
 }

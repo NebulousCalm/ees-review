@@ -16,7 +16,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 export default function Geology() {
   return (
-    <main>
+    <main className="geo">
       <div className="sidenav">
         <Link href="/astronomy">
           <FontAwesomeIcon className="icons" icon={faMeteor} />
